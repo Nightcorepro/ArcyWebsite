@@ -157,7 +157,7 @@ export const siteConfig = {
   socials: [
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Discord, href: "", label: "Discord" },
+    { icon: Discord, href: "#", label: "Discord" },
   ],
 
   privacy: {
