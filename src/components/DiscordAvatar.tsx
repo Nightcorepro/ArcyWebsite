@@ -56,7 +56,7 @@ export const DiscordAvatar = ({
           // to stretch the image) avoids inconsistent replaced-element sizing
           // across mobile browsers. Centered with a translate so it scales
           // outward evenly from the middle of the avatar in every direction.
-          className="absolute top-[50%] left-[50%] w-[120%] h-[120%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none"
+          className="absolute top-[50%] left-[50%] w-[150%] h-[120%] -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none"
         />
       )}
     </>
