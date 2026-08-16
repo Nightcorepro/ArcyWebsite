@@ -3,10 +3,10 @@ import prayagAvatar from "@/assets/prayag-avatar.jpg";
 
 export const siteConfig = {
   bot: {
-    name: "Aerox",
+    name: "Night",
     tagline: "The next-generation Discord bot",
     description:
-      "Aerox is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
+      "Night is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
     version: "v3.2.0",
     servers: "120K+",
     users: "8.4M+",
@@ -110,32 +110,32 @@ export const siteConfig = {
 
   team: [
     {
-      name: "AeroX 1",
+      name: "Sayuri",
       role: "Founder & Lead Developer",
-      bio: "Architects the core. Loves clean code and 3am refactors.",
-      avatar: prayagAvatar,
-      socials: { github: "#", twitter: "#" },
+      bio: "Love being the core of all.",
+      avatar: SayuriAvatar,
+      socials: { discord: "#", twitter: "#" },
     },
     {
-      name: "AeroX 2",
+      name: "Nightcorepro",
       role: "Product Designer",
-      bio: "Crafts the pixels you fall in love with.",
-      avatar: "",
-      socials: { github: "#", twitter: "#" },
+      bio: "Love the way it looks.",
+      avatar: NightAvatar,
+      socials: { discord: "#", github: "#" },
     },
   ],
 
   faqs: [
     {
-      q: "Is Aerox free to use?",
+      q: "Is Night free to use?",
       a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
     },
     {
-      q: "How do I add Aerox to my server?",
+      q: "How do I add Night to my server?",
       a: "Click the Invite button anywhere on the site, authorize the bot with the Manage Server permission, and you are ready in seconds.",
     },
     {
-      q: "Does Aerox store my messages?",
+      q: "Does Night store my messages?",
       a: "No. We only store configuration data essential for commands. See our Privacy page for full details.",
     },
     {
@@ -149,20 +149,19 @@ export const siteConfig = {
   ],
 
   contact: {
-    email: "xyz@gmail.com",
-    discord: "https://discord.gg/aerox",
-    github: "https://github.com/AeroXDevs",
-    twitter: "https://twitter.com/nebula_bot",
+    discord: "https://discord.gg/",
+    github: "https://github.com/",
+    twitter: "https://twitter.com/",
   },
 
   socials: [
     { icon: Github, href: "#", label: "GitHub" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "xyz@gmail.com", label: "Email" },
+    { icon: Discord, href: "", label: "Discord" },
   ],
 
   privacy: {
-    lastUpdated: "April 18 2026",
+    lastUpdated: "August 16 2026",
     sections: [
       {
         title: "Information We Collect",
@@ -187,11 +186,11 @@ export const siteConfig = {
     sections: [
       {
         title: "Acceptable Use",
-        body: "By using Nebula, you agree not to abuse the service, attempt to bypass rate limits, or use the bot for illegal activities. Violations may result in a permanent ban from the service.",
+        body: "By using Night, you agree not to abuse the service, attempt to bypass rate limits, or use the bot for illegal activities. Violations may result in a permanent ban from the service.",
       },
       {
         title: "Service Availability",
-        body: "While we target 99.99% uptime, Nebula is provided as-is. We are not liable for service interruptions, data loss, or damages arising from use of the bot.",
+        body: "While we target 97% uptime, Nebula is provided as-is. We are not liable for service interruptions, data loss, or damages arising from use of the bot.",
       },
       {
         title: "Changes to These Terms",
