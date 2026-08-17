@@ -73,7 +73,7 @@ export const DiscordAvatar = ({
           // the box past the container edges instead. `object-contain`
           // still keeps the decoration's own aspect ratio intact within
           // that (now larger) box, so it isn't stretched or distorted.
-          className="absolute z-10 object-contain pointer-events-none select-none"
+          className="absolute z-100 object-contain pointer-events-none select-none"
           style={{ inset: `-${DECORATION_BLEED_PERCENT}%` }}
         />
       )}
