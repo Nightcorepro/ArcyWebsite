@@ -6,13 +6,13 @@ export const siteConfig = {
     tagline: "The next-generation Discord bot",
     description:
       "nasm is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
-    version: "v3.2.0",
+    version: "v1.0",
     servers: "120K+",
     users: "8.4M+",
     commands: 240,
-    uptime: "99.99%",
+    uptime: "97%",
     inviteUrl: "https://discord.com/oauth2/authorize",
-    supportUrl: "https://discord.gg/aerox",
+    supportUrl: "",
   },
 
   nav: [
@@ -93,6 +93,7 @@ export const siteConfig = {
         { name: "/avatar", description: "Show user avatar in HD", usage: "/avatar <user>" },
         { name: "/poll", description: "Create an interactive poll", usage: "/poll <question>" },
         { name: "/remind", description: "Set a personal reminder", usage: "/remind <time> <text>" },
+        { name: "/afk", description: "Displays your status as AFK on ping", usage: "/afk" },
       ],
     },
     {
