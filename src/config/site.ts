@@ -2,10 +2,10 @@ import { Bot, Sparkles, Shield, Music, Zap, MessageSquare, Globe, Github, Twitte
 
 export const siteConfig = {
   bot: {
-    name: "Night",
+    name: "nasm",
     tagline: "The next-generation Discord bot",
     description:
-      "Night is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
+      "nasm is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
     version: "v3.2.0",
     servers: "120K+",
     users: "8.4M+",
@@ -126,15 +126,15 @@ export const siteConfig = {
 
   faqs: [
     {
-      q: "Is Night free to use?",
+      q: "Is nasm free to use?",
       a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
     },
     {
-      q: "How do I add Night to my server?",
+      q: "How do I add nasm to my server?",
       a: "Click the Invite button anywhere on the site, authorize the bot with the Manage Server permission, and you are ready in seconds.",
     },
     {
-      q: "Does Night store my messages?",
+      q: "Does nasm store my messages?",
       a: "No. We only store configuration data essential for commands. See our Privacy page for full details.",
     },
     {
@@ -160,7 +160,7 @@ export const siteConfig = {
   ],
 
   privacy: {
-    lastUpdated: "August 16 2026",
+    lastUpdated: "August 18 2026",
     sections: [
       {
         title: "Information We Collect",
@@ -185,7 +185,7 @@ export const siteConfig = {
     sections: [
       {
         title: "Acceptable Use",
-        body: "By using Night, you agree not to abuse the service, attempt to bypass rate limits, or use the bot for illegal activities. Violations may result in a permanent ban from the service.",
+        body: "By using nasm, you agree not to abuse the service, attempt to bypass rate limits, or use the bot for illegal activities. Violations may result in a permanent ban from the service.",
       },
       {
         title: "Service Availability",
