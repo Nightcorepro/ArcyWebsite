@@ -30,7 +30,7 @@ interface DiscordAvatarProps {
  * if a specific decoration still looks a little too tight or too loose,
  * nudge this percentage up or down and check it against the live site.
  */
-const DECORATION_BLEED_PERCENT = 100;
+const DECORATION_BLEED_PERCENT = 0;
 
 /** Renders a member's live Discord avatar (via Lanyard), falling back to a local image or emoji placeholder. */
 export const DiscordAvatar = ({
