@@ -107,7 +107,6 @@ export const siteConfig = {
       icon: Bot,
       commands: [
         { name: "/ask", description: "Ask questions to Ai", usage: "/ask <question>" },
-        { name: "/imagine", description: "Generate images using Ai", usage: "/imagine <description>},
         { name: "/ai model", description: "Change the Ai model", usage: "/ai model <ai> <model>" },
         { name: "/ai usage", description: "Check the Ai usage limit", usage: "/ai usage" },
       ],
