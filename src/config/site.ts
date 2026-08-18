@@ -1,4 +1,4 @@
-import { Bot, Sparkles, Shield, Music, Zap, MessageSquare, Globe, Github, Twitter, Mail, MessageCircle } from "lucide-react";
+import { Bot, Sparkles, Shield, Music, Zap, MessageSquare, Globe, Github, Twitter, Mail, MessageCircle, Crown } from "lucide-react";
 
 export const siteConfig = {
   bot: {
@@ -59,6 +59,12 @@ export const siteConfig = {
       description:
         "Fully translated experience for your international community members.",
     },
+    {
+      icon: Crown,
+      title: "Cheap Premium",
+      description:
+        "Get premium features for cheap. [$10/year]",
+    },
   ],
 
   commandCategories: [
@@ -94,6 +100,16 @@ export const siteConfig = {
         { name: "/poll", description: "Create an interactive poll", usage: "/poll <question>" },
         { name: "/remind", description: "Set a personal reminder", usage: "/remind <time> <text>" },
         { name: "/afk", description: "Displays your status as AFK on ping", usage: "/afk" },
+      ],
+    },
+    {
+      name: "Ai",
+      icon: Bot,
+      commands: [
+        { name: "/ask", description: "Ask questions to Ai", usage: "/ask <question>" },
+        { name: "/imagine", description: "Generate images using Ai", usage: "/imagine <description>},
+        { name: "/ai model", description: "Change the Ai model", usage: "/ai model <ai> <model>" },
+        { name: "/ai usage", description: "Check the Ai usage limit", usage: "/ai usage" },
       ],
     },
     {
