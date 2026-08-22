@@ -72,7 +72,7 @@ export const siteConfig = {
       name: "Moderation",
       icon: Shield,
       commands: [
-        { name: "/ban", description: "Ban a member from the server", usage: "/ban <user> [reason]", premium: true, staff: false },
+        { name: "/ban", description: "Ban a member from the server", usage: "/ban <user> [reason]", premium: false, staff: false },
         { name: "/kick", description: "Kick a member from the server", usage: "/kick <user> [reason]", premium: false, staff: false },
         { name: "/mute", description: "Timeout a member", usage: "/mute <user> <duration>", premium: false, staff: false },
         { name: "/warn", description: "Issue a warning to a member", usage: "/warn <user> <reason>", premium: false, staff: false },
@@ -106,9 +106,9 @@ export const siteConfig = {
       name: "Ai",
       icon: Bot,
       commands: [
-        { name: "/ask", description: "Ask questions to Ai", usage: "/ask <question>", premium: false, staff: false },
-        { name: "/ai model", description: "Change the Ai model", usage: "/ai model <ai> <model>", premium: false, staff: false },
-        { name: "/ai usage", description: "Check the Ai usage limit", usage: "/ai usage", premium: false, staff: false },
+        { name: "/ask", description: "Ask questions to Ai", usage: "/ask <question>", premium: false, staff: true },
+        { name: "/ai model", description: "Change the Ai model", usage: "/ai model <ai> <model>", premium: true, staff: true },
+        { name: "/ai usage", description: "Check the Ai usage limit", usage: "/ai usage", premium: true, staff: false },
       ],
     },
     {
