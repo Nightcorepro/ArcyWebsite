@@ -106,8 +106,8 @@ export const siteConfig = {
       name: "Ai",
       icon: Bot,
       commands: [
-        { name: "/ask", description: "Ask questions to Ai", usage: "/ask <question>", premium: false, staff: true },
-        { name: "/ai model", description: "Change the Ai model", usage: "/ai model <ai> <model>", premium: true, staff: true },
+        { name: "/ask", description: "Ask questions to Ai", usage: "/ask <question>", premium: false, staff: false },
+        { name: "/ai model", description: "Change the Ai model", usage: "/ai model <ai> <model>", premium: true, staff: false },
         { name: "/ai usage", description: "Check the Ai usage limit", usage: "/ai usage", premium: true, staff: false },
       ],
     },
