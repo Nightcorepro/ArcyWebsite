@@ -2,17 +2,17 @@ import { Bot, Sparkles, Shield, Music, Zap, MessageSquare, Globe, Github, Twitte
 
 export const siteConfig = {
   bot: {
-    name: "nasm",
+    name: "Arcy Pro",
     tagline: "The next-generation Discord bot",
     description:
-      "nasm is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
+      "ArcyPro is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
     version: "v1.0",
-    servers: "120K+",
-    users: "8.4M+",
+    servers: "12+",
+    users: "8+",
     commands: 240,
-    uptime: "97%",
-    inviteUrl: "https://discord.com/oauth2/authorize",
-    supportUrl: "",
+    uptime: "99%",
+    inviteUrl: "https://discord.com/oauth2/authorize?client_id=1570754905113624697&permissions=6827283200863351&integration_type=0&scope=bot",
+    supportUrl: "https://discord.gg/arcygg",
   },
 
   nav: [
@@ -142,15 +142,15 @@ export const siteConfig = {
 
   faqs: [
     {
-      q: "Is nasm free to use?",
-      a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
+      q: "Is Arcy Pro free to use?",
+      a: "Yes, almost all core features are free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
     },
     {
-      q: "How do I add nasm to my server?",
+      q: "How do I add Arcy to my server?",
       a: "Click the Invite button anywhere on the site, authorize the bot with the Manage Server permission, and you are ready in seconds.",
     },
     {
-      q: "Does nasm store my messages?",
+      q: "Does Arcy store my messages?",
       a: "No. We only store configuration data essential for commands. See our Privacy page for full details.",
     },
     {
@@ -164,7 +164,7 @@ export const siteConfig = {
   ],
 
   contact: {
-    discord: "https://discord.gg/",
+    discord: "hhttps://discord.gg/arcygg",
     github: "https://github.com/",
     twitter: "https://twitter.com/",
   },
